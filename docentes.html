@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"/>  
+
+    <title>Docentes</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+    <!-- Custom styles for this page -->
+    
+
+    <!-- ============================================================
+    =ESTILOS PARA ESTA PAGINA
+    ===============================================================-->
+    <link rel="stylesheet" href="vendor/datatables/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="vendor/datatables/extensiones/css/responsive.dataTables.min.css">
+    <link rel="stylesheet" href="vendor/datatables/extensiones/css/buttons.dataTables.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3 bg-second-primary">
+                <h6 class="m-0 font-weight-bold text-white">Lista de Docentes</h6>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <button class="btn btn-success" data-toggle="modal" data-target="#modalData"><i class="fas fa-plus-circle"></i> Nuevo Docente</button>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-sm-12">
+                        <table class="table table-bordered" id="tbdata" cellspacing="0" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Identificación</th>
+                                    <th>Apellidos</th>
+                                    <th>Nombres</th>
+                                    <th>Municipio</th>
+                                    <th>Dirección</th>
+                                    <th>Correo</th>
+                                    <th>Celular</th>                                    
+                                    <th>Estado</th>                                    
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>                                    
+                                    <td>123456789</td>
+                                    <td>Muriel Velez</td>
+                                    <td>Jorge Albeiro Muriel</td>
+                                    <td>Medellín</td>
+                                    <td>carrera 10 nro 10 10</td>
+                                    <td>j.albeiromuriel@gmail.com</td>
+                                    <td>317 472 2992</td>
+                                    <td><span class="badge badge-info">Activo</span></td>
+                                    <td>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>                                                                        
+                                    <td>123456789</td>
+                                    <td>Muriel Velez</td>
+                                    <td>Jorge Albeiro Muriel</td>
+                                    <td>Medellín</td>
+                                    <td>carrera 10 nro 10 10</td>
+                                    <td>j.albeiromuriel@gmail.com</td>
+                                    <td>317 472 2992</td>
+                                    <td><span class="badge badge-danger">No Activo</span></td>
+                                    <td>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </button>
+                                        <button class="btn btn-danger btn-sm">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </div>
+
+    
+     <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <script src="vendor/datatables/extensiones/js/dataTables.responsive.min.js"></script>
+
+    <script src="vendor/datatables/extensiones/js/dataTables.buttons.min.js"></script>
+    <script src="vendor/datatables/extensiones/js/jszip.min.js"></script>
+    <script src="vendor/datatables/extensiones/js/buttons.html5.min.js"></script>
+    <script src="vendor/datatables/extensiones/js/buttons.print.min.js"></script>
+ 
+</body>
+</html>
